@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="sisfrases1ConnectionString-Web.config Connection String" description="sisfrases1ConnectionString A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=den1.mssql7.gear.host;Initial Catalog=sisfrases1;User ID=sisfrases1;Password=Sc7hBu_?lz4g" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jmezzomo\\source\\repos\\WebFrases\\WebFrases\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sisfrases1ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMestre.master.cs" Inherits="WebFrases.PaginaMestre" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="~/CSS/Estilos.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <asp:ImageButton ID="imgButton" runat="server" ImageUrl="~/IMAGENS/SISTEMA/header.jpg" CssClass="linkhome" />
+            
+            <nav>
+                <asp:HyperLink ID="hlHome" runat="server" CssClass="linkbotoes" NavigateUrl="~/Default.aspx">Home</asp:HyperLink>
+                <asp:HyperLink ID="hlUsuario" runat="server" CssClass="linkbotoes" NavigateUrl="~/Usuario.aspx">Usuários</asp:HyperLink>
+                <asp:HyperLink ID="hlAutor" runat="server" CssClass="linkbotoes" NavigateUrl="~/Autor.aspx">Autores</asp:HyperLink>
+                <asp:HyperLink ID="hlFrase" runat="server" CssClass="linkbotoes" NavigateUrl="~/Frase.aspx">Frases</asp:HyperLink>
+                <asp:HyperLink ID="hlCategoria" runat="server" CssClass="linkbotoes" NavigateUrl="~/Categoria.aspx">Categorias</asp:HyperLink>
+                <asp:HyperLink ID="hlSair" runat="server" CssClass="linkbotoes" NavigateUrl="~/Login.aspx">Sair</asp:HyperLink>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </main>
+        <footer>
+            <p>Site desenvolvido por João William.</p>
+        </footer>
+    </form>
+</body>
+</html>

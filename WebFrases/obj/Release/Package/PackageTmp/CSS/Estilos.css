@@ -1,0 +1,85 @@
+﻿header{
+    width: 80%;
+    height: 10em;
+    margin: auto;
+    padding: 0.6em;
+    background-color: #DFDFDF;
+    box-shadow: -3px 2px 20px 0px #2E2E2E;
+}
+
+nav{
+    width: 70%;
+    margin-top: 0.1em;
+    margin-right: 0.1em;
+    float: right;
+}
+
+main {
+    width: 80%;
+    min-height: 30em;
+    margin: 2em auto;
+    padding: 0.6em;
+    background-color: none;
+    box-shadow: -3px 2px 20px 0px #2E2E2E;
+}
+
+article{
+    width: auto;
+    min-height: 28em;
+    padding: 0.6em;
+}
+
+header nav h1{
+    font-family: Arial;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+footer{
+    width: auto;
+    height: 4em;
+    margin: 2em auto 0em;
+    padding: 0.6em;
+    background-color: #222222;
+}
+
+footer p{
+    font-family: Arial;
+    font-size: 1em;
+    line-height: 150%;
+    text-align:center;
+    padding: 0.2em;
+    color: #737373;
+}
+
+.linkhome{
+    width: 20%;
+    margin-left: 1em;
+}
+
+.linkbotoes{
+    border: 1em;
+    background-color: #F44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20%;
+    padding: 0.6em;
+    background-color: #DFDFDF;
+    box-shadow: -3px 2px 20px 0px #2E2E2E;
+}
+
+.gridview {
+    width: 80%;
+    margin: 2em auto;
+    padding: 0.6em;
+    box-shadow: -3px 2px 20px 0px #2E2E2E;
+}
